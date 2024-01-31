@@ -2,8 +2,6 @@
 
 namespace App\Http;
 
-use App\Http\Middleware\AuthUser;
-use App\Http\Middleware\SignatureVerification;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
